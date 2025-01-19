@@ -10,7 +10,7 @@ Dopo aver scaricato i file di configurazione eseguire i seguenti comandi:
 
 ```
   export PATH=/root/LLVM_ROOT/install/bin:$PATH\
-  BUILD/bin/opt -p localopts test/ass1.ll -o test/ass1.optimized.bc
+  build/bin/opt -p localopts test/ass1.ll -o test/ass1.optimized.bc
   cd test
   llvm-dis ass1.optimized.bc -o ass1.opt.ll
 ```
